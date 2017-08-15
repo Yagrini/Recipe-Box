@@ -1,0 +1,55 @@
+.navbar{
+    box-shadow: 0px 0px 2px #444 inset;
+    height: 10px;
+}
+.mynav{
+    color: #eee;
+    font-size: 35px;
+    font-family: Verdana,sans-serif;
+    text-shadow: 0px 0px 3px white;
+}
+.all{
+    text-shadow: none;
+    background-color: #eee;
+    border-radius: 5px;
+    border:1px solid #bbb;
+    box-shadow: 0px 0px 2px black inset;
+}
+.panel-group{
+    margin-top: 20px;
+}
+.item{
+    transition: all 1s ease;
+    font-size: 12pt;
+}
+.myadd{
+    margin-bottom: 20px;
+}
+.myhead:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.inggg{
+    font-size: 11pt;
+    font-family: verdana , sans-serif;
+    margin:10px;
+    border:1px solid #ddd;
+    border-radius: 7px;
+}
+.mybuttons{
+    text-align: left;
+}
+.mylist{
+    max-height: 0;
+}
+.classone{
+    max-height: 0px;
+    transition: max-height 0.4s ease-out;
+    overflow: hidden;
+}
+.classtwo{
+    overflow: hidden;
+    transform: scaleY(1);
+    max-height: 500px;
+    transition: max-height 0.5s ease-in;
+}
